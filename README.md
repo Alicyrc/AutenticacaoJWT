@@ -120,22 +120,22 @@ Resposta:
 
 {
   id: 1, 
-  nome: 'Alice', 
-  email: 'alice@empresa.com', 
+  nome: 'Usuario1', 
+  email: 'user1@exemplo.com', 
   senha: '123456', 
   role: 'admin'
 },
 {
   id: 2, 
-  nome: 'Bruno', 
-  email: 'bruno@empresa.com', 
+  nome: 'Usuario2', 
+  email: 'user2@exemplo.com', 
   senha: '123456', 
   role: 'usuario'
 },
 { 
   id: 3, 
-  nome: 'Carla', 
-  email: 'carla@empresa.com', 
+  nome: 'Usuario3', 
+  email: 'user3@exemplo.com', 
   senha: '123456', 
   role: 'moderador' 
 }
@@ -200,8 +200,3 @@ Implementação de autenticação via OAuth2 (Google, GitHub, etc.)
 Alicy Rodrigues
 📧 Email: alicyrc@hotmail.com
 💻 Projeto desenvolvido para fins acadêmicos — Programação Back-End Avançada - 6º Período
-
----
-
-📜 Licença
-Este projeto está licenciado sob a MIT License.
