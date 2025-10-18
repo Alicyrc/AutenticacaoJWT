@@ -153,6 +153,7 @@ Resposta:
   role: req.user.role
 }
 
+---
 
 🧪 Testando com Postman
 Faça login (/login) e copie o accessToken e refreshToken.
@@ -161,12 +162,15 @@ Use o accessToken para acessar a rota protegida /usuarios.
 
 Quando o accessToken expirar, envie o refreshToken para /refresh e obtenha um novo token.
 
+---
+
 ⚠️ Tratamento de Erros
 Erro	                        Descrição
 Token não fornecido	          Cabeçalho Authorization ausente
 Token inválido ou expirado	  Token incorreto ou fora do prazo de validade
 JWT_SECRET não definido	      Variáveis de ambiente ausentes no .env
 
+---
 
 🧠 Conceitos-Chave
 
@@ -176,6 +180,7 @@ Refresh Token: longo prazo (ex: 7 dias). Usado apenas para gerar novos access to
 
 Bearer Token: padrão de autenticação no cabeçalho HTTP.
 
+---
 
 🧩 Possíveis Extensões
 
@@ -189,11 +194,14 @@ Rotas de redefinição de senha
 
 Implementação de autenticação via OAuth2 (Google, GitHub, etc.)
 
+---
 
 🧑‍💻 Autor
 Alicy Rodrigues
 📧 Email: alicyrc@hotmail.com
 💻 Projeto desenvolvido para fins acadêmicos — Programação Back-End Avançada - 6º Período
+
+---
 
 📜 Licença
 Este projeto está licenciado sob a MIT License.
